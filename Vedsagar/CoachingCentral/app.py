@@ -3,10 +3,11 @@ import requests
 import pandas as pd
 
 # Load NocoDB secrets
-base_url = st.secrets["NOCODB_BASE_URL"]
-api_token = st.secrets["NOCODB_API_TOKEN"]
-workspace_id = st.secrets["NOCODB_WORKSPACE_ID"]
-base_id = st.secrets["NOCODB_BASE_ID"]
+NOCODB_BASE_URL = "https://app.nocodb.com"
+NOCODB_API_TOKEN = "bf3teMimRCaM9KV3pdaBgWo666jJQLeAI2s5kxlu"
+NOCODB_WORKSPACE_ID = "wd6chino"
+NOCODB_BASE_ID = "pxf5yahsh743r6d"
+
 
 headers = {"xc-token": api_token}
 
