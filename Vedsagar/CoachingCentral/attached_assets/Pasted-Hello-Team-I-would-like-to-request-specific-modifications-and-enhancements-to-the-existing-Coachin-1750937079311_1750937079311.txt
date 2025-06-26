@@ -1,0 +1,89 @@
+Hello Team,
+
+I would like to request specific modifications and enhancements to the existing Coaching Institute CRM system currently deployed at coaching-centerdaund.netlify.app.
+
+Note: The system's overall structure and design should remain unchanged. These are refinements to improve functionality, not a complete rebuild.
+
+🔧 Required Modifications
+
+Remove Lead Management Section Completely remove or hide the existing lead recording and display features.
+The CRM will now focus strictly on student, batch, and communication management.
+
+Batch-Wise WhatsApp Communication System Add functionality to create and save WhatsApp message templates.
+Admin can select a specific batch or individual students from within the CRM.
+
+Upon selection, the system should automatically fetch the mobile numbers of the selected students or batch.
+
+For free and risk-free implementation:
+
+The CRM will generate pre-filled WhatsApp message links for each recipient.
+
+If WhatsApp group links for batches are stored, provide an "Open Group Chat" button.
+
+Admin can manually click these links to send messages — no paid WhatsApp API required.
+
+Batch & Category Management Allow creation of multiple categories (e.g., NEET, JEE, UPSC).
+Within each category, admin can create unlimited batches.
+
+Batches should include:
+
+Batch name
+
+Start date
+
+End date
+
+Student Records For each student, store:
+Full name
+
+Parent’s contact number
+
+Student’s contact number
+
+Batch assignment
+
+Provide options to edit or delete student records as required.
+
+Performance Tracking Add the ability to manually record and store test scores or performance data for students.
+Generate basic performance reports (e.g., student performance over time) within the CRM.
+
+Fee Management Track fee details for each student, including:
+Total fee
+
+Paid amount
+
+Pending amount
+
+Due date
+
+Generate automatic WhatsApp reminders for pending fees using pre-filled message links.
+
+System Control Only one admin login is required for management.
+No role-based access control is needed at this stage.
+
+✅ Future Flexibility (Optional, Not Immediate)
+Keep the system structure flexible for future mobile view support.
+
+Allow for potential future integration with SMS or Email communication tools.
+
+⚠️ Important Deployment Notes
+The system is hosted on Netlify — ensure all modifications are compatible for smooth redeployment.
+
+Existing student records and core system layout should not be disrupted unnecessarily.
+
+This is strictly a refinement of an already built system, not a rebuild.
+
+✅ Regarding Database Setup (NocoDB Integration)
+I plan to use my own self-hosted NocoDB instance as the backend for this CRM.
+
+Please share the complete recommended database structure, including:
+
+Required tables (e.g., Categories, Batches, Students, Message Templates, Performance, Fees)
+
+Necessary fields and data types
+
+Any relationships between tables
+
+This will allow me to replicate the same structure on NocoDB. Once ready, I’ll share the NocoDB API details for seamless integration, ensuring data persistence while keeping the current UI intact.
+
+Thank you for your support. Please confirm the next steps
